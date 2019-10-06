@@ -10,92 +10,12 @@
 
   <title>Trang chủ</title>
 </head>
-
 <body>
   <div class="body">
+  <?php include "header.php"; ?>
     <div class="container">
-
-
-      <header>
-        <div id="top-header">
-          <div class="contact">
-            <span>Hotline: 0902.298.300 - 0906.298.300</span>
-          </div>
-          <div class="sub-menu">
-            <a href="#">SINH VIÊN</a>
-            <a href="#">GIẢNG VIÊN</a>
-            <a href="#">ĐÀO TẠO QUỐC TẾ </a>
-          </div>
-          <div class="search">
-            <form action="#">
-              <input type="search" placeholder="Tìm kiếm thông tin">
-              <span>ICON</span>
-
-
-
-
-            </form>
-          </div>
-          <div class="lang">
-            <img src="img/flags/en.jpg" alt="english flag">
-          </div>
-        </div>
-        <div id="main-header">
-          <div class="logo">
-            <img src="img/logo_ntt.png" alt="">
-          </div>
-          <div class="main-menu">
-            <a href="#">Giới thiệu</a>
-            <a href="#">Tuyển sinh</a>
-            <a href="#">Đào tạo</a>
-            <a href="#">Nghiên cứu</a>
-            <a href="#">Hợp tác doanh nghiệp</a>
-          </div>
-        </div>
-      </header>
-
-
-
-      <div id="demo" class="carousel slide" data-ride="carousel">
-
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-          <!-- active là ảnh hiện đầu tiên khi load trang
-                              có bao nhiêu ảnh thì thêm bấy nhiêu thẻ
-                              -->
-          <li data-target="#demo" data-slide-to="0"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2" class="active"></li>
-        </ul>
-
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/img1.jpg" alt="Los Angeles">
-          </div>
-          <div class="carousel-item">
-            <img src="img/img2.jpg" alt="Chicago">
-          </div>
-          <div class="carousel-item">
-            <img src="img/img3.jpg" alt="New York">
-          </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-
-      </div>
-
-
-
       <div class="mb1">
         <div class="row">
-
           <div class="col-md-9">
             <a class="td" href="" style="font-size: 30px "> <u style="color:rgb(231, 172, 84)"> Tin tức </u> </a>
             <div class="row">
@@ -216,151 +136,32 @@ Sep<br>
 </div>
 </li>
       </ul>
-
-
-          </div>
+ </div>
 
         </div>
       </div>
-      <div class="mb3" style="height: 400px" >
-        <div class="row" style="margin-top: 20px">
-          <div class="col-md-3">
-            <br><a href="" class="h5" style="color: white">ĐH Nguyễn Tất Thành </a> <br> <br> <br>
-            <a href="">Thư ngỏ</a><br>
-            <a href="">Tầm nhìn - Sứ Mạng</a><br>
-            <a href="">Văn hoá ĐH Nguyễn Tất Thành </a><br>
-            <a href=""> Thông Tin 3 công khai </a><br>
-            <a href=""> Đảm bảo chất lượng </a><br>
-            <a href=""> Phát Triển Bền Vững </a><br>
-            <a href=""> Trung cấp Nguyễn Tất Thành </a><br>
-            <a href=""> Tiểu học anh mỹ việt </a>
-
-          </div>
-          <div class="col-md-3">
-            <br><a href="" class="h5" style="color: white">PHÒNG - BAN </a> <br> <br> <br>
-            <a href="" class="h5" style="color: white"> THƯ VIỆN ẢNH </a> <br> <br> <br>
-            <a href="" class="h5" style="color: white">E-LEARNING </a> <br> <br> <br>
-          </div>
-          <div class="col-md-3">
-            <br><a href="" class="h5"><b style="color: white"> TRUNG TÂM - VIỆN </b> </a> <br> <br> <br>
-            <a href="">Thư ngỏ</a><br>
-            <a href="">Tầm nhìn - Sứ Mạng</a><br>
-            <a href="">Văn hoá ĐH Nguyễn Tất Thành </a><br>
-            <a href=""> Thông Tin 3 công khai </a><br>
-            <a href=""> Đảm bảo chất lượng </a><br>
-            <a href=""> Phát Triển Bền Vững </a><br>
-            <a href=""> Trung cấp Nguyễn Tất Thành </a><br>
-            <a href=""> Tiểu học anh mỹ việt </a>
-            <a href=""> Trung cấp Nguyễn Tất Thành </a><br>
-            <a href=""> Tiểu học anh mỹ việt </a>
-
-          </div>
-          <div class="col-md-3">
-            <br> <br>
-            <ul class="sub-page">
-              <li><a href="http://facbook.com/daihocnguyentatthanh" class="btn"><i
-                    class="fa fa-facebook-official"></i>Facebook</a></li>
-              <li><a href="https://plus.google.com/112750194814925795608" class="btn"><i
-                    class="fa fa-google-plus"></i>Google Plus</a></li>
-              <li><a href="http://youtube.com/daihocntt" class="btn"><i class="fa fa-youtube-play"></i>Youtube</a></li>
-              <li><a href="mailto:#" class="btn"><i class="fa fa-envelope"></i>E-mail</a></li>
-              <li><a href="https://zalo.me/1656351623584574728" class="btn"><i class="fa fa-wechat"></i>Zalo</a></li>
-              <li><a href="https://eo1.ntt.edu.vn" class="btn"><i class="fa fa-mortar-board"></i>E-office</a></li>
-              <li><a href="http://tcns.ntt.edu.vn" class="btn"><i class="fa fa-users"></i>Tuyển dụng</a></li>
-            </ul>
-
-
-          </div>
-
-        </div>
-
-      </div>
-      <div class="last" style="margin-top: 20px" >
-        <div class="row">
-          <div class="col-md-7">
-            <p class="pb-0">
-              <b>THÔNG TIN LIÊN HỆ </b><br>
-              Trụ sở chính: <b>300A – Nguyễn Tất Thành, Phường 13, Quận 4, TP. Hồ Chí Minh, Việt Nam</b> <br>
-              Điện thoại: <b> 1900 2039 </b> Fax: <b>028 39 404 759</b><br>
-              Hotline: <b>0902 298 300 – 0906 298 300 – 0912 298 300 – 0914 298 300</b><br>
-              Email: <b>tttvtsinh@ntt.edu.vn – bangiamhieu@ntt.edu.vn </b>
-
-            </p>
-
-          </div>
-          <div class="col-md-5">
-            <p class="pb-0">©2017. Bản quyền thuộc về trường <b>Đại học Nguyễn Tất Thành</b></p>
-          </div>
-        </div>
-
-
-
-      </div>
+      <?php include "footer.php"; ?>
 
     </div>
 
   </div>
 
 
-  <!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
-  <script>
-    window.fbAsyncInit = function () {
-      FB.init({
-        xfbml: true,
-        version: 'v4.0'
-      });
-    };
 
-    (function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-  <!-- Your customer chat code -->
-  <div class="fb-customerchat" attribution=setup_tool page_id="109902160394551" theme_color="#ffc300">
-
-  <?php
-      include('getCustommers.php');
+<table style=" border: 1px solid red ">
+<?php
+      include('getCustomer.php');
   ?>
 
+
+</table>
+ 
 
 
 
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/bootstrap.js"></script>
-
-
 </body>
 
 </html>
