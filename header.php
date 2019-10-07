@@ -24,14 +24,17 @@
       <a href="#">ĐÀO TẠO QUỐC TẾ </a>
     </div>
     <div class="search">
-      <form action="#">
-        <input type="search" placeholder="Tìm kiếm thông tin">
-        <span>ICON</span>
-
-
-
-
-      </form>
+    <form class="justify-content-sm-start">
+            <div class="input-group">
+                <input class="form-control btn-transparent border-0" id="searchbox" type="text"
+                    placeholder="Tìm kiếm thông tin">
+                <span class="input-group-btn">
+                    <button class="form-control btn btn-transparent btn-secondary border-0" type="button" id="btn-search">
+                        <i class="fa fa-search" aria-hidden="true">Tìm</i>
+                    </button>
+                </span>
+            </div>
+        </form>
     </div>
     <div class="lang">
       <img src="img/flags/en.jpg" alt="english flag">
@@ -46,7 +49,7 @@
       <a href="#">Tuyển sinh</a>
       <a href="#">Đào tạo</a>
       <a href="#">Nghiên cứu</a>
-      <a href="#">Hợp tác doanh nghiệp</a>
+      <a href="#" class="h-left "><i class="fa fa-handshake"></i> Hợp tác doanh nghiệp</a>
     </div>
   </div>
 </header>
