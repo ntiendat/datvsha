@@ -1,14 +1,5 @@
 
 <!doctype html>
-<?php  
-  session_start();
-    
-if(!isset($_SESSION['Email'])){
-  header("Location:admin.php");
-}
-
-
-?>
 <html lang="en">
   <head>
     <title>Title</title>
@@ -20,12 +11,10 @@ if(!isset($_SESSION['Email'])){
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-           
-    
+      
 
 
-
-            <div class="container">
+  <div class="container">
 
 <div class="logo">
     <img src="img/logo_ntt.png" alt="">
@@ -34,23 +23,11 @@ if(!isset($_SESSION['Email'])){
 
 <div class="bg">
 <div class="main">
-<form action="signup.php" method="POST" >
-            Tên :</br><input style=" border-radius: 10px" type="text" name="Ten" ></br>
-            Họ :</br> <input style=" border-radius: 10px" type="text" name= "Ho" ></br>
-            Email :</br><input style=" border-radius: 10px" type="text" name="Email" ></br>
-            Pass :</br> <input style=" border-radius: 10px" type="password" name="Password"></br></br>
-               <input style=" border-radius: 10px" type="submit" value="đăng kí" >  </br>
-            <!--  <a href="dangxuat.php">đăng xuất</a> -->        
-            </form>
-            <form action="dangxuat.php">
-            <input style=" border-radius: 10px" type="submit" value="Đăng Xuất" >  
-            </form>
-            <form action="thembai.php">
-            <input style=" border-radius: 10px" type="submit" value="Thêm Bài" >  
-            </form>
-            <form action="timbai.php">
-            <input style=" border-radius: 10px" type="submit" value="Tìm" >  
-            </form>
+      <form class="formm" action="kqtimbai.php" method="POST">
+            Mã Bài : <input style=" border-radius: 10px" type="text" name="MA">
+            <input type="submit" style=" border-radius: 10px" value="Tìm">
+    
+    </form>
 
 
 </div>
@@ -61,26 +38,6 @@ if(!isset($_SESSION['Email'])){
 
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

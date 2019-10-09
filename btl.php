@@ -150,7 +150,9 @@ Sep<br>
 
 <table style=" border: 1px solid red ">
 <?php
-      include('getCustomer.php');
+    //  include('getCustomer.php');
+      include('atimbai.php');
+
   ?>
 
 
