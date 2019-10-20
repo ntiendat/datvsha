@@ -1,0 +1,32 @@
+.containeradmin , .containerNTTadmin , .containersearch , .containersignup{
+    background-color: rgba(218, 184, 184, 0.3);
+    border-radius: 80px;
+    margin-top: 200px;
+    margin-left: 500px;
+}
+.logo{
+    text-align: center;
+}
+.containeradmin .login{
+    text-align: center;
+}
+input{ 
+    border-radius: 10px;
+}
+b{
+    font-size: 15px;
+}
+.fileanh{
+    border-radius: 0;
+}
+
+.containeradd{
+    background-color: rgba(218, 184, 184, 0.3);
+    border-radius: 80px;
+    margin-top: 200px;
+    margin-left: 500px;
+}
+
+.align-center{
+    text-align: center;
+}
