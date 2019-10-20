@@ -156,7 +156,7 @@
                     <span class="b-title">Hợp tác quốc tế</span>
                     <hr align="left" class="hr">
                     <article>
-                        <a href="#"><img class="card-img-top" style="height:200px" src="images/hoptacqt.jpg"
+                        <a href="#"><img class="card-img-top" style="height:200px" src="img/hoptacqt.jpg"
                                 alt=""></a>
                         <a href="#" class="s-title">
                             <p align="justify">Khoa Công nghệ Sinh học ĐH Nguyễn Tất Thành làm việc với ĐH Hiroshima
@@ -173,7 +173,7 @@
                     <span class="b-title">Môi trường học tập</span>
                     <hr align="left" class="hr">
                     <article>
-                        <a href="#"><img class="card-img-top" style="height:200px" src="images/moitrght.jpg" alt=""></a>
+                        <a href="#"><img class="card-img-top" style="height:200px" src="img/moitrght.jpg" alt=""></a>
                         <a href="#" class="s-title">
                             <p align="justify">Tìm hiểu về các câu lạc bộ tại Trường ĐH Nguyễn Tất Thành</p>
                         </a>
