@@ -20,7 +20,7 @@
         <div class="searchArticles align-center">
             <div class="main">
                 <form class="form" action="searchResults.php" method="POST">
-                    <b>Mã Bài : </b><input type="text" name="articles_id">
+                    <b>Mã Bài : </b><input type="text" name="article_id">
                     <input type="submit" value="Tìm kiếm">
                 </form>
             </div>

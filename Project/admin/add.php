@@ -1,6 +1,6 @@
 <?php
  session_start();
-$id = $_POST['article_id']
+// $id = $_POST['articles_id'];
 $title = $_POST['title'];
 $content = $_POST['content'];
 $image =$_POST['images'];
@@ -12,7 +12,7 @@ if(!$conn){
 }
 else{
     $sql = "INSERT INTO `articles`(`article_id`, `title`, `content`, `images`)
-            VALUES ('$id','$title','$content','$image') ";
+            VALUES ('','$title','$content','$image') ";
     mysqli_set_charset($conn,'UTF8');
     if(!$result = mysqli_query($conn,$sql)){
         echo'failed';

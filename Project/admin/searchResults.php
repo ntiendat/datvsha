@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-md-3">
                 <?php
-                    $a_id = $_POST['article_id'];
+                    $a_id = $_POST["article_id"];
                     $_SESSION["username"]="";
                     $conn = mysqli_connect('localhost','root','','ntt');
                     if(!$conn){
@@ -31,7 +31,7 @@
                         $result = mysqli_query($conn,$sql);
                         if (mysqli_num_rows($result)>0){
                             while($row = mysqli_fetch_assoc($result)){
-                                echo '<img src="img/imgar'.$row['images'].'">';
+                                echo '<img src="img/imgar/'.$row['images'].'">';
                             }
                         }
                         else{
@@ -42,7 +42,7 @@
             </div>
             <div class="col-md-9">
                 <?php
-                    $a_id = $_POST['article_id'];
+                    $a_id = $_POST["article_id"];
                     $_SESSION["username"]="";
                     $conn = mysqli_connect('localhost','root','','ntt');
                     if(!$conn){

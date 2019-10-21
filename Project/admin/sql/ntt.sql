@@ -7,7 +7,7 @@ create table 'users'(
 )
 
 create table 'articles'(
-    'articles_id' int(10) unsigned not null primary key,
+    'article_id' int(10) unsigned auto_increment not null primary key,
     'title' longtext,
     'content' longtext,
     'images' longblob,
@@ -22,11 +22,11 @@ values
 
 insert into 'articles'
 values 
-('1' ,N'Đây là tiêu đề bài viết đầu', N'Đây là nội dung bài viết số 1', 'anh1.jpg'),
-('2' ,'This is the title of article number 2', 'This is the content of articles number 2', 'anh2.jpg'),
-('3' ,N'Tiêu đề bài viết số 3', N'Nội dung bài viết số 3', 'anh3.jpg'),
-('4' ,'Title of article number 4', 'Content of article number 4', 'anh4.jpg'),
-('5' ,N'Nhà thờ đá Sapa', N'Nhà thờ Đá Sapa tọa lạc ngay ở trung tâm thị trấn Sapa,
+('' ,N'Đây là tiêu đề bài viết đầu', N'Đây là nội dung bài viết số 1', 'anh1.jpg'),
+('' ,'This is the title of article number 2', 'This is the content of articles number 2', 'anh2.jpg'),
+('' ,N'Tiêu đề bài viết số 3', N'Nội dung bài viết số 3', 'anh3.jpg'),
+('' ,'Title of article number 4', 'Content of article number 4', 'anh4.jpg'),
+('' ,N'Nhà thờ đá Sapa', N'Nhà thờ Đá Sapa tọa lạc ngay ở trung tâm thị trấn Sapa,
 được xây dựng từ năm 1895 được coi là một dấu ấn kiến trúc cổ toàn vẹn nhất của 
 người Pháp còn sót lại. Nhà thờ đã được tôn tạo và bảo tồn, trở thành một hình 
 ảnh không thể thiếu khi nhắc đến thị trấn Sapa mù sương.', 'anh5.jpg');

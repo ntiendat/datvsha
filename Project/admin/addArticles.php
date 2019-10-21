@@ -23,10 +23,10 @@
         <div class="addArticles align-center">
             <div class="main">
                 <form class="form" action="add.php" method="POST">
-                    <b>Tiêu Đề :</b></br><input type="text" name="tieuDe"> </br>
-                    <b>Nội Dung :</b></br><input type="textarea" name="noiDung"> </br>
-                    <b>Ảnh</b><br><input type="file" name="anh" class="fileanh"> </br></br>
-                    <input type="submit" value="Thêm">
+                    <b>Tiêu Đề :</b></br><input type="text" name="title"> </br>
+                    <b>Nội Dung :</b></br><input type="textarea" name="content"> </br>
+                    <b>Ảnh</b><br><input type="file" name="anh" class="images"> </br></br>
+                    <input type="submit" value="Đăng bài">
                 </form>
             </div>
         </div>

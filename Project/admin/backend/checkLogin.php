@@ -21,12 +21,12 @@ else{
                    $_SESSION["username"]=$user;
                    header("location:NTTadmin.php");
             }else{
-                header("location:index.php");
+                header("location:admin.php");
             }
         }
     }
     else{
-        header("location:index.php");
+        header("location:admin.php");
     }
 }
 ?>
