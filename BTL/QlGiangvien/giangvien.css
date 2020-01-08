@@ -1,0 +1,56 @@
+ul {
+    list-style-type: none;
+    margin-left: -30px;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  li a {
+    display: block;
+    color: #555;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  li a.active {
+    background-color :#555;;
+    color: white;
+  }
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  h3{
+      background-color:  #555;;
+      color: white;
+      padding: 15px;
+      margin-bottom: 1px;
+  }
+  .col-lg-10{
+    margin-left: 188px;
+  }
+/*sinh vien */
+/* table{
+    float: right;
+    width: 80% !important;
+} */
+#create{
+    margin: 20px 0 20px 200px;
+}
+table td{
+    width: 150px;
+}
+table input{
+    height: 20px;
+    width: 100px;
+}
+form.ahihi{
+  text-align: right;
+  width: 100%;
+}
+form.ahihi input {
+  width: 100  px !important ;
+  text-align: right;
+}
